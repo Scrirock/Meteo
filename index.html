@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Météo</title>
+    <script src="https://kit.fontawesome.com/10b102adea.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <div id="container">
+        <div id="choix">
+            <label for="city">Entrez une ville</label>
+            <input type="text" id="city">
+            <button id="go">Valider</button>
+        </div>
+        <div id="lieu">
+            <p id="ville"></p>
+            <p id="country"></p>
+            <p id="co"></p>
+        </div>
+        <div id="main">
+            <p><span id="temperature"></span><span id="feelsLike"></span></p>
+            <p><span id="min"></span><span id="max"></span></p>
+            <p id="humidity"></p>
+            <p id="pressure"></p>
+        </div>
+        <div id="weather">
+            <p id="description"></p>
+        </div>
+        <div id="wind">
+            <p id="degree"></p>
+            <p id="speed"></p>
+        </div>
+    </div>
+
+<script src="JS/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    font-size: 2rem;
+    background-color: #ebe9f1;
+}
+
+#container{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 75%;
+    margin: auto;
+    border: 5px solid #444346;
+    border-radius: 5rem;
+    overflow: hidden;
+}
+
+#choix{
+    border: 2px solid #444346;
+    background-color: #c1bfc7;
+    text-align: center;
+    height: 5rem;
+}
+
+#lieu, #main, #weather, #wind {
+    border: 1px solid #444346;
+    background-color: #dedce4;
+    padding: 2rem 15rem;
+}
